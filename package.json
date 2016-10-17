@@ -1,0 +1,38 @@
+{
+  "name": "ocelot-electron-build",
+  "version": "1.0.0",
+  "description": "Ocelot Mod Manager",
+  "guid": "ed822c8d-f92c-4101-9627-166543005fe6",
+  "build": {
+    "appId": "com.txuritan.ocelot",
+    "guid": "ed822c8d-f92c-4101-9627-166543005fe6",
+    "mac": {},
+    "win": {
+      "iconUrl": "https://u.pomf.is/gmeoip.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^1.4.3",
+    "electron-builder": "^7.13.0"
+  },
+  "scripts": {
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "author": "Ian Cronkright <txurtian@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamocelot/ocelot-mod-manager.git"
+  },
+  "keywords": [
+    "electron",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/teamocelot/ocelot-mod-manager/issues"
+  },
+  "homepage": "https://github.com/teamocelot/ocelot-mod-manager#readme"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ocelot",
+  "description": "Ocelot Mod Manager",
+  "guid": "ed822c8d-f92c-4101-9627-166543005fe6",
+  "main": "main.js",
+  "authors": [
+    "Ian Cronkright <txurtian@yahoo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "list.js": "^1.2.0",
+    "datatables": "^1.10.12",
+    "less": "^2.7.1",
+    "perfect-scrollbar": "^0.6.12"
+  }
+}

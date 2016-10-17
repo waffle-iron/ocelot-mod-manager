@@ -1,0 +1,21 @@
+{
+  "name": "ocelot-electron-build",
+  "description": "Ocelot Mod Manager",
+  "main": "index.js",
+  "authors": [
+    "Ian Cronkright <txurtian@yahoo.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "electron",
+    "react"
+  ],
+  "homepage": "https://github.com/teamocelot/ocelot-mod-manager",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
